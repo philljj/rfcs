@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for num in 3948 4303; do
+  if [ -f rfc$num.txt ]; then
+    echo "you already got it: rfc$num.txt"
+    continue;
+  fi
+
+  wget https://www.rfc-editor.org/rfc/rfc$num.txt
+done
