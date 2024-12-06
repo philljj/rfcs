@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for num in 8032 8410 ; do
+  if [ -f rfc$num.txt ]; then
+    echo "you already got it: rfc$num.txt"
+    continue;
+  fi
+
+  wget https://www.rfc-editor.org/rfc/rfc$num.txt
+done
