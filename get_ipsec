@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for num in 2403 3948 4106 4303 4543; do
+for num in 1851 2403 2404 2451 3948 4106 4303 4543; do
   if [ -f rfc$num.txt ]; then
     echo "you already got it: rfc$num.txt"
     continue;
