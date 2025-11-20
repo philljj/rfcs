@@ -2,6 +2,11 @@
 
 Got tired of tracking and redownloading RFCs.
 
+Uses `wget` to download RFCs by subject.
+
+- `./get_<subject>` to download RFCs on that subject.
+- `./clean_em` to clean'em.
+
 ## Usage
 
 ```
