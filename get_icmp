@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for num in 792 1122; do
+for num in 792 950 4443 4861 1122; do
   if [ -f rfc$num.txt ]; then
     echo "you already got it: rfc$num.txt"
     continue;
